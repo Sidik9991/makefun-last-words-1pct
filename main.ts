@@ -62,6 +62,27 @@ const CANDIDATES: Candidate[] = [
     text: "Save your tears. Save your photos instead - oh. Oh no. Too late for both.",
     scores: [1, 1, 2, 1, 1],
   },
+  // --- Pass 2 challengers ---
+  {
+    // Pocket-flashlight blame is a fresh angle, but the laugh is an
+    // insinuation rather than a twist, and it trails off instead of
+    // landing a final beat.
+    text: "My last 1% goes to the flashlight you left on in your pocket. We both know why.",
+    scores: [2, 1, 2, 1, 1],
+  },
+  {
+    // The good-cable burial request is vivid, but cables sit squarely in
+    // the charger family the judge calls stock.
+    text: "Battery at 1%. Final request: bury me with the good cable, not the gas-station one.",
+    scores: [2, 1, 2, 2, 0],
+  },
+  {
+    // Closest challenger: it sets up the same rescue call the winner
+    // refuses, but the mid-word cut-off is a known move and the choice -
+    // the actual joke - never gets made.
+    text: "I could call for help, send your location, or finish this sente-",
+    scores: [2, 1, 2, 2, 1],
+  },
 ];
 
 function total(c: Candidate): number {
